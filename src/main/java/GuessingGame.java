@@ -19,14 +19,14 @@ public class GuessingGame {
             // Prompt the use for input
             System.out.println("Guess a number between 1 and 1000:");
 
-            // Collect user input 1
-            Scanner number = new Scanner(System.in);
-            int playerGuess = number.nextInt();
+//            // Collect user input 1
+//            Scanner number = new Scanner(System.in);
+//            int playerGuess = number.nextInt();
 
-//            // Collect user input 2
-//            Scanner scanner = new Scanner(System.in); // Prompts user for input (?)
-//            String guess = scanner.nextLine(); // Allows user to provide input and press return.
-//            int playerGuess1 = Integer.parseInt(guess); // Transforming "string" input from user into an "integer" type.
+          // Collect user input 2
+          Scanner scanner = new Scanner(System.in); // Prompts user for input (?)
+          String guess = scanner.nextLine(); // Allows user to provide input and press return.
+          int playerGuess1 = Integer.parseInt(guess); // Transforming "string" input from user into an "integer" type.
 
             if (playerGuess == x) {
                 System.out.println("That's right!");
